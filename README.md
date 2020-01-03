@@ -8,3 +8,6 @@ A collection of code used to study for the Azure Developer Cert
 
 ### Create Containerized Solutions 
 * [Containers](https://github.com/DRpandaMD/azure-developer-cert/tree/master/IaaS/Docker)
+
+### Use AKS (Kubernetes)
+* [Azure Kubernetes Service](https://github.com/DRpandaMD/azure-developer-cert/tree/master/IaaS/Kubernetes)

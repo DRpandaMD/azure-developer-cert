@@ -38,3 +38,9 @@ kubectl get service azure-vote-front --watch
 # clean up
 az group delete -n $RESOURCE_GROUP
 ```
+
+
+# Exam Tips
+* Be familiar with the az aks create command paramters
+
+[Home](https://github.com/DRpandaMD/azure-developer-cert)

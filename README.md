@@ -11,3 +11,14 @@ A collection of code used to study for the Azure Developer Cert
 
 ### Use AKS (Kubernetes)
 * [Azure Kubernetes Service](https://github.com/DRpandaMD/azure-developer-cert/tree/master/IaaS/Kubernetes)
+
+
+## Develop for Azure Storage
+
+### Develop Solutions that use Storage Tables
+
+
+### Develop Solutions that use CosmosDB
+
+
+### Develop Solutions that use Blob Storage

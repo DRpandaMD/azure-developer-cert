@@ -4,7 +4,7 @@ A collection of code used to study for the Azure Developer Cert
 ## Develope Azure Infrastructure as a Service Solutions
 
 ### Implement Batch Jobs by Using Azure Batch Services
-* [Batch Processing](IaaS/batch/Readme.md)
+* [Batch Processing](https://github.com/DRpandaMD/azure-developer-cert/tree/master/IaaS/batch)
 
 ### Create Containerized Solutions 
-* [Containers](IaaS/Docker/Readme.md)
+* [Containers](https://github.com/DRpandaMD/azure-developer-cert/tree/master/IaaS/Docker)

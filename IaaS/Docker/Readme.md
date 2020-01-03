@@ -45,4 +45,4 @@ docker-compose up --build -d
 * navigate to `localhost:8080` 
 * to clean up  run : `docker-compose down`
 
-[Home](/README.md)
+[Home](https://github.com/DRpandaMD/azure-developer-cert)

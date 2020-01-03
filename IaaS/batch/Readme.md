@@ -19,4 +19,4 @@ Know the sequence of CLI commands to create and run a batch job
 * az batch task create
 
 
-[Back](/README.MD)
+[Back](https://github.com/DRpandaMD/azure-developer-cert)

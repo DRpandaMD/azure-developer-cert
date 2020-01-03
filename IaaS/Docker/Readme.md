@@ -45,4 +45,15 @@ docker-compose up --build -d
 * navigate to `localhost:8080` 
 * to clean up  run : `docker-compose down`
 
+
+# Exam Essentials
+
+* Be familiar with the sequency of statements in the Dockerfile:
+
+`FROM -> WORKDIR -> COPY -> ENTRYPOINT`
+
+* Be familiar with the az aks create commands
+
+[Link to AZ AKS](https://docs.microsoft.com/en-us/cli/azure/aks?view=azure-cli-latest#az-aks-create)
+
 [Home](https://github.com/DRpandaMD/azure-developer-cert)

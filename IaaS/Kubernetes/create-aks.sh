@@ -1,16 +1,4 @@
-# Notes for Kubernetes
-
-* AKS is a fully managed Kubernets Container Orchestrator
-* You will need to know how to use the AZ CLI 
-* The source code for the Kubernetes app is found:
-
-<https://github.com/Azure-Samples/azure-voting-app-redis>
-
-
-* here are the instructions for working with K8s found in `create-aks.sh`
-
-
-```bash
+# set up variables
 export RESOURCE_GROUP=aksdemo
 export AKS_CLUSTER=demo-cluster
 
@@ -37,4 +25,3 @@ kubectl get service azure-vote-front --watch
 
 # clean up
 az group delete -n $RESOURCE_GROUP
-```

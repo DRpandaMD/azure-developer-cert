@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+    dotnet-mvc-app:
+        build: ./
+        image: dotnet-mvc-app:latest
+        restart: always
+        ports: 
+            - "8080:80"

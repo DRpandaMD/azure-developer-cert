@@ -8,6 +8,9 @@
 # Set up
 ```bash
 dotnet new console -o app
+dotnet add package Microsoft.Azure.Storage.Common --version 11.1.1
+dotnet add package Microsoft.Azure.Cosmos --version 3.5.1
+dotnet add package Microsoft.Azure.CosmosDB.Table --version 2.1.2
 ```
 
 

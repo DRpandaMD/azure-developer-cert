@@ -28,7 +28,7 @@ namespace app
 
         public override string ToString()
         {
-            return $"Region(pk):{Region} Email(rk):{Email} Name:{Name} Phone:{Phone}";
+            return $"Region(pk):{Region} Email(rk):{Email} Name:{Name} Phone:{Phone} \n";
         }
     }   
 }

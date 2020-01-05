@@ -13,4 +13,4 @@ az storage account create -g $RG -n $ACCOUNT_NAME -l $LOCATION --sku Standard_LR
 az storage account show-connection-string -n $ACCOUNT_NAME --query "connectionString"
 
 #clean up
-az group delete $RG
+az group delete -n $RG

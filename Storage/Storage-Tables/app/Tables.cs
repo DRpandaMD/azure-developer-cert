@@ -66,10 +66,12 @@ namespace app
             // true if the table dexisted in the storage service and has been deleted
             // otherwise its fale
             // I could write a while loop to try to fix the premtive flow
-            Console.Write("-----Trying to delete table------ \n ");
-            table.DeleteIfExists();
+            bool deleteStatus = table.DeleteIfExists();
+            while( deleteStatus != true)
+            {
+                 Console.Write("-----Trying to delete table------ \n ");
+            }
             Console.WriteLine("-----Table Dropped Successfully---- \n");
-            
         }
 
         public static async Task AddAsync<T> (CloudTable table, T entity) where T :TableEntity

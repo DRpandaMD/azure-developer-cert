@@ -97,6 +97,10 @@ namespace app
             return (T)result.Result;
         }
 
+        /*
+        * I will need to fix how this part works because its not
+        * pulling Items off the table
+        */
         public static async Task<List<Gamer>> FindGamersByNameAsync(CloudTable table, string name)
         {
             var filterCondition = TableQuery.GenerateFilterCondition("Name", QueryComparisons.Equal, name);

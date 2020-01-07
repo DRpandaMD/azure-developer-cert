@@ -177,3 +177,6 @@ public static async Task DeleteAsync<T>(CloudTable table, T entity) where T : Ta
 ## Exam Essentials
 
 * The exam will focus on perfomring a TableQuery.
+
+
+[Home](https://github.com/DRpandaMD/azure-developer-cert)

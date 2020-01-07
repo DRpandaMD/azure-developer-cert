@@ -98,6 +98,7 @@ namespace app
         }
 
         /*
+        * TODO:
         * I will need to fix how this part works because its not
         * pulling Items off the table
         */

@@ -6,6 +6,10 @@
 
 [Blog on Constiency Models](https://blog.jeremylikness.com/blog/2018-03-23_getting-behind-the-9ball-cosmosdb-consistency-levels/)
 
+[Wiki on CAP Theorem ](https://en.wikipedia.org/wiki/CAP_theorem)
+
+[Sample Queries ](https://docs.microsoft.com/en-us/azure/cosmos-db/sql-query-getting-started)
+
 ## General information
 
 Azure Cosmos DB is a globally distrtibutied database service that's designed to provide low latency, elastic scalabilyt of throughput,

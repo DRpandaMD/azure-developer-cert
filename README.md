@@ -22,5 +22,7 @@ A collection of code used to study for the Azure Developer Cert
 
 ### Develop Solutions that use CosmosDB
 
+* [Azure CosmosDB with C#](/Storage/CosmosDB/)
+
 
 ### Develop Solutions that use Blob Storage

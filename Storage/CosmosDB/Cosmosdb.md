@@ -18,6 +18,36 @@ well-defind sematics for data consistency and high availability
 The exam will test your understand of the consistency modles and knowledge that unstructured JSON
 data can be stored and queired using the SQL API surface
 
+[Home](/Readme.md)
+
+
+## Set up 
+
+* You can use the commands in ```cloud-config.sh``` to get started
+
+* To see the output of Azure locations use
+
+```bash
+az account list-locations -o table
+```
+
+* to work with a file with the grep'd output of names you can try
+
+```bash
+az account list-locations | grep "name"  > uslocations.txt
+```
+
+* When you are ready to make your own console app
+
+```bash
+dotnet new console -o ${App_name}
+cd ${App_name}
+dotnet build
+```
+
+
+
+
 
 ## SQL API
 

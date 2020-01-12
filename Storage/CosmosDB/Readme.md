@@ -18,7 +18,7 @@ well-defind sematics for data consistency and high availability
 The exam will test your understand of the consistency modles and knowledge that unstructured JSON
 data can be stored and queired using the SQL API surface
 
-[Home](/Readme.md)
+[Home](/README.md)
 
 
 ## Set up 
@@ -44,6 +44,10 @@ dotnet new console -o ${App_name}
 cd ${App_name}
 dotnet build
 ```
+
+## Additional NuGet Packages
+
+```dotnet add package Microsoft.Azure.DocumentDB.Core --version 2.9.2```
 
 
 

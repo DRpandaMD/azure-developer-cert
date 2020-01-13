@@ -4,8 +4,12 @@
 * Access is via Rest and OData, with SDKs available for multiple languages and Platforms
 * The exam focuses its question soley upon query functions.
 
+## Key references
 
-# Set up
+<https://docs.microsoft.com/en-us/azure/cosmos-db/tutorial-develop-table-dotnet>
+
+
+## Set up
 ```bash
 dotnet new console -o app
 dotnet add package Microsoft.Azure.Storage.Common --version 11.1.1

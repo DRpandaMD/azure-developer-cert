@@ -50,7 +50,7 @@ dotnet build
 ```dotnet add package Microsoft.Azure.DocumentDB.Core --version 2.9.2```
 
 
-
+[Home](/README.md)
 
 
 ## SQL API

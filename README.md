@@ -17,7 +17,7 @@ A collection of code used to study for the Azure Developer Cert
 
 ### Develop Solutions that use Storage Tables
 
-* [Azure Storage Tables with C#](https://github.com/DRpandaMD/azure-developer-cert/tree/master/Storage/Storage-Tables)
+* [Azure Storage Tables with C#](/Storage/Storage-Tables)
 
 
 ### Develop Solutions that use CosmosDB

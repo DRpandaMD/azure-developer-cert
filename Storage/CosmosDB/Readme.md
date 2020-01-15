@@ -56,3 +56,36 @@ dotnet build
 ## SQL API
 
 Azure CosmosDB with the SQL API supports storing and querying JSON documents using SQL dialect.
+
+
+## Exam Topics
+
+### AZ CLI -- az cosmosdb create
+
+
+* You will most likely be asked about consistncy model, but in terms like: "you must ensure reads reflect the most recent write".  Therefore, answer will be strong consistnecy.
+
+* The exam only focues on SQL API, so when asked to selec an API surface, its SQL!
+
+* There should not be any C# but the CLI command to create DB
+
+
+Create CosmosDB AZ CLI
+```Bash
+az cosmosdb create -g $RESOURCE_GROUP_NAME \
+    --name $ACCOUNT_NAME \
+    --kind GlobalDocumentDB \  
+    --locations regionName=centralus isZoneRedundant=True \
+    --locations regionName=eastus isZoneRedundant=False \
+    --default-consistency-level Strong \
+    --enable-multiple-write-locations true \
+    --enable-automatic-failover true
+```
+
+Create Database AZ CLI
+```Bash
+az cosmosdb database create -g $RESOURCE_GROUP_NAME --name $ACCOUNT_NAME --db-name $DATABASE_NAME
+```
+
+[Home](/)
+

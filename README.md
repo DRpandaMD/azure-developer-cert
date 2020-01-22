@@ -28,3 +28,5 @@ The source material and insperation is based on <https://github.com/linuxacademy
 
 
 ### Develop Solutions that use Blob Storage
+
+* [Azure Blob Storage with C#](/Storage/Blob-Storage)

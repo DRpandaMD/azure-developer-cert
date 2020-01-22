@@ -46,9 +46,50 @@ namespace blob
             BlobContinuationToken blobContinuationToken = null;
             do
             {
-                var result
+                var results = await cloudBlobContainer.ListBlobsSegmentedAsync(null, blobContinuationToken);
+                blobContinuationToken = results.ContinuationToken;
+
+                foreach (var item in results.Results)
+                {
+                    Console.WriteLine(item.Uri);
+                }
+            }
+            while (blobContinuationToken != null);
+
+            // Now lets try uploading a file
+
+            var destinationFile = localFileName.Replace(".txt", "_DOWNLOADED.txt");
+            await cloudBlockBlob.DownloadToFileAsync(destinationFile, FileMode.Create);
+
+            var leaseId = Guid.NewGuid().ToString();
+            File.WriteAllText(localFileName, "New Content");
+            cloudBlockBlob.AcquireLease(TimeSpan.FromSeconds(30), leaseId);
+
+            try
+            {
+                await cloudBlockBlob.UploadFromFileAsync(localFileName);
+            
+            }
+            catch(StorageException ex)
+            {
+                Console.WriteLine(ex.Message);
+                if (ex.InnerException != null)
+                {
+                    Console.WriteLine(ex.InnerException.Message);
+                }
             }
 
+            //wait a bit longer
+            await Task.Delay(TimeSpan.FromSeconds(5));
+            // upload it
+            await cloudBlockBlob.UploadFromFileAsync(localFileName);
+            // or release it
+            await cloudBlockBlob.ReleaseLeaseAsync(new AccessCondition(){
+                LeaseId = leaseId
+            });
+
+            //now clean up the container
+            await cloudBlobContainer.DeleteIfExistsAsync();
         }
     }
 }

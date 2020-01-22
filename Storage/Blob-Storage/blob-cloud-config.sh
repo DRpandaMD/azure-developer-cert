@@ -16,3 +16,7 @@ az storage account create \
 az storage account show-connection-string \
     -n $ACCOUNT_NAME \
     --query "connectionString"
+
+# Clean up
+
+az group delete -n $RESOURCE_GROUP

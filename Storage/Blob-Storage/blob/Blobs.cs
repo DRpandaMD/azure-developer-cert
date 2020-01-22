@@ -6,6 +6,10 @@ using Microsoft.Azure.Storage.Blob;
 
 namespace blob
 {
+    /*
+    *  Code doesn't work well it keep erroring out in the debugger.
+    */
+
     public class Blobs
     {
         public static string _connectionString = "";

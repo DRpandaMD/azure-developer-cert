@@ -2,7 +2,7 @@
 
 export RESOURCE_GROUP=blobs
 export LOCATION=centralus
-export ACCOUNT_NAME=blobs
+export ACCOUNT_NAME=zarateblobs
 
 az group create -n $RESOURCE_GROUP -l $LOCATION
 
@@ -14,5 +14,5 @@ az storage account create \
 
 
 az storage account show-connection-string \
-    -n $ACCOUNT_NAME
+    -n $ACCOUNT_NAME \
     --query "connectionString"

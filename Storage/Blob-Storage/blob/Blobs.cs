@@ -17,7 +17,7 @@ namespace blob
             // next with the storage Account Object create the Blob client
             var cloudBlobClient = storageAccount.CreateCloudBlobClient();
             // now with the blobClient object we need
-            var cloudBlobContainer = cloudBlobClient.GetContainerReference("TestContainer");
+            var cloudBlobContainer = cloudBlobClient.GetContainerReference("testcontainer");
             // now create the container
             await cloudBlobContainer.CreateAsync();
 

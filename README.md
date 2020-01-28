@@ -30,3 +30,18 @@ The source material and insperation is based on <https://github.com/linuxacademy
 ### Develop Solutions that use Blob Storage
 
 * [Azure Blob Storage with C#](/Storage/Blob-Storage)
+
+
+## Develop for Azure PaaS offerings
+
+### Develop a Web App using Azure Web Apps
+
+* [Web App](/PaaS/Web-Apps)
+
+### Develop a Mobile App using Azure Web Apps
+
+* [Mobile App](/PaaS/Mobile-Apps)
+
+### Develop a serverless app using Azure Functions
+
+* [Azure Functions](/PaaS/Functions)

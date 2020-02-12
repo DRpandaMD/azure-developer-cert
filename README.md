@@ -45,3 +45,26 @@ The source material and insperation is based on <https://github.com/linuxacademy
 ### Develop a serverless app using Azure Functions
 
 * [Azure Functions](/PaaS/Functions)
+
+
+## Connect to and Consuume Azure and Thrid Party Services
+
+### Devlope an App Service Logic App
+
+* [Logic App](/ThirdParty/LogicApp)
+
+### Integrate Azure Serach within Solutions
+
+* [Logic App](/ThirdParty/AzureSearch)
+
+### Establish API Gateways
+
+* [Logic App](/ThirdParty/ApiGateway)
+
+### Develop Event Based Solutions
+
+* [Logic App](/ThirdParty/LogicApp)
+
+### Develop Message Based Solutions
+
+* [Logic App](/ThirdParty/LogicApp)

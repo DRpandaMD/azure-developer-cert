@@ -1,4 +1,5 @@
 # azure-developer-cert
+
 A collection of code used to study for the Azure Developer Cert
 
 The source material and insperation is based on <https://github.com/linuxacademy/content-az203-files>
@@ -6,12 +7,15 @@ The source material and insperation is based on <https://github.com/linuxacademy
 ## Develope Azure Infrastructure as a Service Solutions
 
 ### Implement Batch Jobs by Using Azure Batch Services
+
 * [Batch Processing](https://github.com/DRpandaMD/azure-developer-cert/tree/master/IaaS/batch)
 
 ### Create Containerized Solutions 
+
 * [Containers](https://github.com/DRpandaMD/azure-developer-cert/tree/master/IaaS/Docker)
 
 ### Use AKS (Kubernetes)
+
 * [Azure Kubernetes Service](https://github.com/DRpandaMD/azure-developer-cert/tree/master/IaaS/Kubernetes)
 
 
@@ -46,7 +50,6 @@ The source material and insperation is based on <https://github.com/linuxacademy
 
 * [Azure Functions](/PaaS/Functions)
 
-
 ## Connect to and Consuume Azure and Thrid Party Services
 
 ### Devlope an App Service Logic App
@@ -55,16 +58,16 @@ The source material and insperation is based on <https://github.com/linuxacademy
 
 ### Integrate Azure Serach within Solutions
 
-* [Logic App](/ThirdParty/AzureSearch)
+* [Azure Search](/ThirdParty/AzureSearch)
 
 ### Establish API Gateways
 
-* [Logic App](/ThirdParty/ApiGateway)
+* [API Gateways](/ThirdParty/ApiGateway)
 
 ### Develop Event Based Solutions
 
-* [Logic App](/ThirdParty/LogicApp)
+* [Event Grid](/ThirdParty/EventGrid)
 
 ### Develop Message Based Solutions
 
-* [Logic App](/ThirdParty/LogicApp)
+* [Service Bus](/ThirdParty/ServiceBus)

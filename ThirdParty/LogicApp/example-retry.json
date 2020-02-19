@@ -1,0 +1,19 @@
+"put_a_message_on_a_queue": {
+    "inputs": { 
+        "body": "@items('For_each')?['Path']",
+        "host": {
+            "connection": {
+                "name": "@paramters('$connections')['azurequeues']['connectionId']"
+            }
+        },
+        "method": "post",
+        "path": "/@{encodeURIComponent('toarchive')}/messages",
+        "pretryPolicy": {
+            "count": 3,
+            "interval": "PT20S",
+            "type": "fixed"
+        }
+    },
+    "runAfter": {},
+    "type": "ApiConnection"
+}

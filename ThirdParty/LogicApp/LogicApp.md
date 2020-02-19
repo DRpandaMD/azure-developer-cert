@@ -6,7 +6,7 @@ They can represent Complex processes instead of rquiring quick and simple execut
 
 ## Exception Handeling
 
-* default :: 4 retriels exponentially increaseing intervals scale by 7.5 seconds capped at 5 and 45 seconds
+* default :: 4 retries exponentially increaseing intervals scale by 7.5 seconds capped at 5 and 45 seconds
 
 * exponetial: waits a random interval selction from exponetial growing  range before sending the next request
 
@@ -21,7 +21,7 @@ They can represent Complex processes instead of rquiring quick and simple execut
 
 * Retry plicies and JSON are likely to be on the exam.  This will be in reference to talking to an external appliction and ask you to specify the type, interval, and retry count. 
 
-* Be aple to slect between the following :
+* Be able to slect between the following :
 
   * Flow: it is not on the exam
 
@@ -31,7 +31,7 @@ They can represent Complex processes instead of rquiring quick and simple execut
 
   * For Processing Qeueue Messages: pick Functions
 
-  * Webjobs, they are kinda dated and are superseded by Azure Functions, but keep in mind that they are able to run in the same Azure DevOps environment as WebApps.
+  * WebJobs, they are kinda dated and are superseded by Azure Functions, but keep in mind that they are able to run in the same Azure DevOps environment as WebApps.
 
 ## Refereneces
 

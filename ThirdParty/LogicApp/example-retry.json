@@ -3,12 +3,12 @@
         "body": "@items('For_each')?['Path']",
         "host": {
             "connection": {
-                "name": "@paramters('$connections')['azurequeues']['connectionId']"
+                "name": "@parameters('$connections')['azurequeues']['connectionId']"
             }
         },
         "method": "post",
         "path": "/@{encodeURIComponent('toarchive')}/messages",
-        "pretryPolicy": {
+        "retryPolicy": {
             "count": 3,
             "interval": "PT20S",
             "type": "fixed"
